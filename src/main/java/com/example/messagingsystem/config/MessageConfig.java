@@ -26,7 +26,6 @@ public class MessageConfig {
     @Qualifier("salaryCreditQueue")
     public Queue salaryCreditQueue() { return new Queue(Constant.SALARY_CREDIT_QUEUE);}
 
-
     @Bean
     public Binding bindingLoanDebit(@Qualifier("emiDebitQueue") Queue queue, TopicExchange exchange) {
         return BindingBuilder.bind(queue).to(exchange).with(Constant.EMI_DEBIT_ROUTING_KEY);
