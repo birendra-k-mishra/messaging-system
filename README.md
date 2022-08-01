@@ -23,14 +23,14 @@ Steps:
 7. Import the given PostMan Collection into Postman to test the Endpoint: https://www.getpostman.com/collections/6bc259b4d35041c14267
 8. This Collection 'Assessmnent' has two endpoints request with Payload and expects the server running on port 8282. Please change if app running on diff port.
 
-Request 1 : Salary Credit Request
-a. This endpoing takes a payload and sends two message to two different queues i.e. Salary Credit Queue and Loan Emi Debit Queue.
-b. Both these Queues can be seen on RabbitMQ Management Console and thir Messages as well.
-c. Both these Queues are attached to Consumers/Listeners which receives the message and prints on the console. 
+Salary Credit Request
+1. This endpoing takes a payload and sends two message to two different queues i.e. Salary Credit Queue and Loan Emi Debit Queue.
+2. Both these Queues can be seen on RabbitMQ Management Console and thir Messages as well.
+3. Both these Queues are attached to Consumers/Listeners which receives the message and prints on the console. 
 
-Request 2: Perfect Cycle Tester: 
-a. This endpoint take the payload as the list of integer array.
-b. Return the response as a Map of each Array and Status of it's Perfect cycle (As specified in the Mail)
+Perfect Cycle Tester: 
+1. This endpoint take the payload as the list of integer array.
+2. Return the response as a Map of each Array and Status of it's Perfect cycle (As specified in the Mail)
 
 
 
