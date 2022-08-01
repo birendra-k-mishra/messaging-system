@@ -10,6 +10,7 @@ Pre-Req:
 1. JDK 11 and Java Runtime
 2. Maven Build Tool
 3. Docker Application to run docker containers.
+4. Postman
 
 
 Steps:
