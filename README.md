@@ -1,8 +1,8 @@
 # messaging-system
 
 This Project Has Two Components as per the Requirement in the Given Assessment.
-a. Perfect Cycle Endpoint
-b. An Endpoint Sending Message to Different Queues using RabbitMQ (Messaging System)
+1. Perfect Cycle Endpoint
+2. An Endpoint Sending Message to Different Queues using RabbitMQ (Messaging System)
 
 How to run the Application
 
